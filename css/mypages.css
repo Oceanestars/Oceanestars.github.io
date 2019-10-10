@@ -3,19 +3,14 @@
 
 header{
   width: 100%;
-
   font-family: helvetica;
-
 }
 
 h1, h2{
 text-decoration: underline;
-  /*text-align: center;*/
+
 }
 
-.override{
-  display: table;
-}
 
 table, th, td {
   border: 1px solid black;
@@ -29,9 +24,9 @@ li a:hover {
 
 body {
   width:100%; /*The container will try to fill the entire browser window width*/
-	/*max-width:800%;*/ /*the maximum width the container will grow to*/
+
   font-family: helvetica;
-  /*text-align: center;*/
+
 
 
 }
