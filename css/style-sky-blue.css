@@ -1155,7 +1155,7 @@ footer .credits a {
   }
 
 @media (min-width: 500px) {
-    .about-me{
+    .experience-me{
       margin-top: 3rem;
       padding-left: 0rem;
       transform: translateX(50%);
