@@ -7,7 +7,10 @@
 
     <link href="img/OceaneLogo-01.png" rel="icon" />
 
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
     <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
     <link href="lib/animate/animate.min.css" rel="stylesheet" />
     <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
@@ -142,6 +145,7 @@
                       <li>
                         <i class="fa-li fa fa-plus"></i>HTML/CSS/Javascript
                       </li>
+                      <li><i class="fa-li fa fa-plus"></i>SASS</li>
                       <li><i class="fa-li fa fa-plus"></i>Git</li>
                       <li><i class="fa-li fa fa-plus"></i>C++</li>
                       <li><i class="fa-li fa fa-plus"></i>Digital Marketing</li>
@@ -152,7 +156,8 @@
                       </li>
                       <li><i class="fa-li fa fa-plus"></i>SQL</li>
                       <li><i class="fa-li fa fa-plus"></i>Python</li>
-                      <li><i class="fa-li fa fa-plus"></i>Node Js</li>
+                      <li><i class="fa-li fa fa-plus"></i>React Js</li>
+                      <li><i class="fa-li fa fa-plus"></i>Web Accessibility</li>
                     </ul>
                   </div>
                 </div>
@@ -204,10 +209,10 @@
         <div class="row">
           <div class="col-md-4">
             <div class="work-box">
-              <a href="#" target="_blank">
+              <a href="https://www.asianerasure.com/" target="_blank">
                 <div class="work-img">
                   <img
-                    src="img/comingsoon.png"
+                    src="img/asianerasure.png"
                     alt="This project is coming soon"
                     class="img-fluid"
                   />
@@ -215,9 +220,9 @@
                 <div class="work-content">
                   <div class="row">
                     <div class="col-sm-8">
-                      <h2 class="w-title">AAPI Community Visualization</h2>
+                      <h2 class="w-title">Asian Erasure</h2>
                       <div class="w-more">
-                        <span class="w-ctegory">D3.js & SASS</span>
+                        <span class="w-ctegory">Next.js & SASS</span>
                       </div>
                     </div>
                     <div class="col-sm-4">
@@ -659,10 +664,7 @@
       </div>
     </section>
 
-    <section
-      class="paralax-mf footer-paralax bg-image sect-mt4 route"
-      style="background-image: url(img/back.jpg)"
-    >
+    <section class="paralax-mf footer-paralax bg-image sect-mt4 route">
       <div class="overlay-mf"></div>
       <div class="container">
         <div class="row">
@@ -763,50 +765,52 @@
     </section>
 
     <script>
-      var slideIndex = 1;
-      showSlides(slideIndex);
+      // var slideIndex = 1;
+      // showSlides(slideIndex);
 
-      function plusSlides(n) {
-        showSlides((slideIndex += n));
-      }
+      // function plusSlides(n) {
+      //   showSlides((slideIndex += n));
+      // }
 
-      function currentSlide(n) {
-        showSlides((slideIndex = n));
-      }
+      // function currentSlide(n) {
+      //   showSlides((slideIndex = n));
+      // }
 
-      function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("demo");
-        var captionText = document.getElementById("caption");
-        if (n > slides.length) {
-          slideIndex = 1;
-        }
-        if (n < 1) {
-          slideIndex = slides.length;
-        }
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-        captionText.innerHTML = dots[slideIndex - 1].alt;
-      }
+      // function showSlides(n) {
+      //   var i;
+      //   var slides = document.getElementsByClassName("mySlides");
+      //   var captionText = document.getElementById("caption");
+      //   if (n > slides.length) {
+      //     slideIndex = 1;
+      //   }
+      //   if (n < 1) {
+      //     slideIndex = slides.length;
+      //   }
+      //   for (i = 0; i < slides.length; i++) {
+      //     slides[i].style.display = "none";
+      //   }
+      //   slides[slideIndex - 1].style.display = "block";
+      //   captionText.innerHTML = dots[slideIndex - 1].alt;
+      // }
     </script>
 
     <!--/ Section Contact-footer End /-->
 
-    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <a href="#" class="back-to-top"
+      ><i class="fa fa-chevron-up"
+        ><span class="visually-hidden">back to the top</span></i
+      ></a
+    >
     <div id="preloader"></div>
 
     <!-- JavaScript Libraries -->
     <script src="lib/jquery/jquery.min.js"></script>
     <script src="lib/jquery/jquery-migrate.min.js"></script>
     <script src="lib/popper/popper.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"
+    ></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/counterup/jquery.waypoints.min.js"></script>
     <script src="lib/counterup/jquery.counterup.js"></script>
