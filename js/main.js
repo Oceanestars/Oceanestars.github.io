@@ -115,3 +115,31 @@
 	});
 
 })(jQuery);
+
+
+// Overlay
+
+function overlayOn(project) {
+	if (project == 1) {
+		document.getElementById("overlay").style.display = "block";
+	}
+	else{
+		document.getElementById("overlay2").style.display = "block";
+
+	}
+
+  }
+  
+function overlayOff(project) {
+	if (project == 1) {
+		document.getElementById("overlay").style.display = "none";
+	}
+	else{
+		document.getElementById("overlay2").style.display = "none";
+
+	}
+
+	console.log("HI");
+}
+
+
