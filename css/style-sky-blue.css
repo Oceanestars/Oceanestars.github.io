@@ -1343,7 +1343,7 @@ footer .credits a {
   right: 0;
   bottom: 0;
   background-color: rgba(0,0,0,0.8);
-  z-index: 2;
+  z-index: 3;
   cursor: pointer;
 }
 
@@ -1353,7 +1353,7 @@ footer .credits a {
   left: 50%;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
-  /* z-index: 3; */
+  z-index: 4;
 }
 
 .show{

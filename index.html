@@ -210,7 +210,7 @@
 
         <div class="row">
           <div class="col-md-4">
-            <div class="work-box" onclick="overlayOn(1)">
+            <div class="work-box" onclick="overlayOn(1)" tabindex="0" aria-haspopup="true" aria-label="Practicum Video" aria-role="button">
               <!-- <a href="Accessibility with Modern Apps" target="_blank"> -->
               <div class="work-img">
                 <img
@@ -245,6 +245,7 @@
                 controls
                 class="video"
                 preload="auto"
+                id="video1"
               >
                 <source src="videos/Andreis-Oceane.mp4" type="video/mp4" />
                 Your browser does not support the video element. Kindly update
@@ -284,7 +285,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="work-box" onclick="overlayOn(2)">
+            <div class="work-box" onclick="overlayOn(2)" tabindex="0" aria-haspopup="true" aria-label="Computer Animation Video" aria-role="button">
               <!-- <a href="https://github.com/Oceanestars/Reveler" target="_blank"> -->
               <div class="work-img">
                 <img
@@ -310,13 +311,14 @@
               </div>
               <!-- </a> -->
             </div>
-            <div id="overlay2" onclick="overlayOff(2)" class="hide">
+            <div id="overlay2" onclick="overlayOff(2)" class="hide" tabindex="0">
               <video
                 width="660"
                 height="415"
                 controls
                 class="video"
                 preload="auto"
+                id="video2"
               >
                 <source src="videos/Project3-V1.mp4" type="video/mp4" />
                 Your browser does not support the video element. Kindly update

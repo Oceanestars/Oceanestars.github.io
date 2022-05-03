@@ -133,10 +133,11 @@ function overlayOn(project) {
 function overlayOff(project) {
 	if (project == 1) {
 		document.getElementById("overlay").style.display = "none";
+		document.getElementById("video1").pause();
 	}
 	else{
 		document.getElementById("overlay2").style.display = "none";
-
+		document.getElementById("video2").pause();
 	}
 
 	console.log("HI");
